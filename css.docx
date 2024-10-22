@@ -1,0 +1,20 @@
+1.why is there need to  have multiple class name for 1 single element 
+
+2.what is box-sizing : border-box property and why do we use it as an default behaviour . 
+
+3. okay examine this "if there is a image wrapped in a div and this div is wrapped in another div" so the outer div must first be assigned with height and width and then inner div should be assigned either same height width or samller to that so that it fits completely?  
+=> If you have an outer div that contains an inner div (which contains an image), here’s how you should manage their heights and widths:
+Outer Div: This div must have a defined height and width to create a specific area for the inner div and its content.
+Inner Div: This div can either have the same dimensions as the outer div or smaller dimensions, depending on your layout requirements.
+
+4.background-size property : 
+The background-size property in CSS controls the size of background images in an element. It allows you to adjust how the image fits within its container, providing flexibility for design layouts.
+Possible Values:
+Keywords:
+cover: Scales the background image to cover the entire container while maintaining its aspect ratio. Parts of the image may be cropped if the aspect ratio doesn’t match the container's dimensions.
+contain: Scales the background image to fit within the container while maintaining its aspect ratio. The entire image will be visible, but there may be empty space in the container if the aspect ratios don’t match.
+
+**********************
+Always define height and width for a div if you want the background image to be visible.
+Without these dimensions, the div will not display any content, including background images.
+**********************
